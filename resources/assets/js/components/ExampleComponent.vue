@@ -36,7 +36,7 @@
                 </table>
                 <form>
                     <div class="form-group">
-                        <label for="inputQuantity">Введите количество авторов, которые должны быть у книги</label>
+                        <label for="inputQuantity">Введите минимальное количество авторов, которые должны быть у книги</label>
                         <input v-model="qty" type="text" class="form-control" id="inputQuantity"
                                aria-describedby="inputQuantity" placeholder="Quantity">
                     </div>
